@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>myPortifolio</title>
+    <link rel="stylesheet" href="index.css">
+<script src="https://fontawesome.com/icons/circle-xmark?f=classic&s=regular"></script>
+<script src="https://fontawesome.com/icons/bars?f=classic&s=solid" ></script>
+</head>
+<body>
+    <div id="header">
+        
+    <div class="container">
+        <nav>
+           <img src="images/myImage.jpg" class="logo">
+            <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="#services">Services</a></li>
+                
+                <i class="fa-regular fa-circle-xmark" onclick="closeMenu()"></i>
+            </ul>
+           
+            <i class="fa-solid fa-bars" onclick="openMenu()"></i> 
+        </nav>
+        <div class="header-text">
+            <h1>Software/DevOps Engineer</h1>
+            <p>Hi I'm <span>Joseph</span> Muema from Machakos <br>Kenya.</p>
+
+        </div>
+    </div>
+    </div>
+    <!--about -->
+<div id="about">
+
+    <div class="container">
+        <div class="row">
+            
+            <div class="about-col-1">
+                <div class="sub-title">
+                    <h1>skill progress</h1>
+                    <div class="skill-box">
+                        <span class="title">Web Development</span>
+
+                        <div class="skill-bar">
+                            <span class="skill-per">
+                                <span class="skill-tip">80%</span>
+                            </span>
+                            
+                        </div>
+
+                        <span class="title">Project Management</span>
+
+                        <div class="skill-bar">
+                            <span class="skill-per project-mngt">
+                                <span class="skill-tip">70%</span>
+                            </span>
+                            
+                        </div>
+
+                        <span class="title">Mobile app</span>
+
+                        <div class="skill-bar">
+                            <span class="skill-per mobile-dev">
+                                <span class="skill-tip">50%</span>
+                            </span>
+                            
+                        </div>
+                    
+                    </div>    
+                </div>
+                
+                   
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                <p>I am Joseph Muema, a Kenyan and a software programmer 
+                    both front-end and back-end developments. I also have 
+                    rich experience in DevOps, Azure cloud platform and Git version control.</p>
+                <div class="tab-titles">
+                     <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                     <p class="tab-links"onclick="opentab('experience')">Experience</p>
+                     <p class="tab-links"onclick="opentab('education')">Education</p>
+                    
+                </div>
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><p>App Development<br><span>Building mobile and desktop applications</span></p></li>
+                        <li><p>web Development<br> <span>Building web applications</span></p></li>
+                        <li><p>Languages<br><span>java, databases(mysql, mariaDB), Html, CSS, javaScript(React.js), Laravel, php</span></p></li>
+                        <li><p>Platforms<br><span>Azure cloud, AWS, DevOps, Git</span></p></li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="experience">
+                    <ul>
+                        
+                        <li><p>feb -oct 2023 <br><span>IT support at HouseLink agencies Nanyuki</span></p></li>
+                        <li><p>2022<br><span>I built an online <br>property acquisition system. This system hosts <br>many services together
+                        such as booking<br> hotel/accomodation, shops space, events space for hire, <br>buying/renting apartments, 
+                    buying land/plots etc.</span></p></li>
+                    <li><p>2018-2021<br><span>writer and Freelancer </span></p></li>
+                    
+                
+                    </ul>
+                </div>
+                <div class="tab-contents" id="education">
+                    <ul>
+                        <li><p>2023<br><span>Azure Administrator certified. </span></p></li>
+                        <li><p>BA Geography/EPM (2017-2022)<br> 
+                            <span>Catholic University of Eastern Africa -Langata <br>Nairobi. Graduated oct 2022</span></p></li>
+                            
+                        
+                    </ul>
+                </div>
+            </div>
+            <div class="btn2">
+                <a href="images/test.pdf"  download >download Cv</a>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+<!--services-->
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">my Services</h1>
+        <div class="ref-link">
+            <p>Do you have a custom job? Click  <a href="#contact" class="ref">here</a>  to contact me</p>
+        </div>
+    <div class="service-list">
+        <div class="service-list-1">
+            <i class="fa-solid fa-code"></i>
+        <h3>Web app Development</h3> 
+        <p>websites</p>
+
+        </div>
+        <div class="service-list-2">
+            <h3>Mobile Development</h3> 
+            <p>Android iOS Desktop apps</p>
+            
+            </div>
+            <div class="service-list-3">
+                <h3>Project management</h3> 
+                <p>websites</p>
+                
+            </div>
+            <div class="service-list-4">
+                <h3>skill rating</h3> 
+                <p>65%</p>
+                
+            </div>
+                
+        </div>
+    
+    </div>
+    
+</div>
+
+<!--contact-->
+<div id="contact">
+    <div class="container">
+        
+        <div class="row">
+            <div class="content-left">
+                <h1 class="sub-title">Hire me</h1>
+                <p>Dont like filling form? Contact me here</p>
+                <!--mail me-->
+           
+                <p><a href="mailto:josephmwema17@gmail.com"><img src="images/mail2.png" class="icons"> <sup>josephmwema17@gmail.com</sup></a></p>
+               <p> <a href="tel:+254707847345"><img src="images/call.png" class="icons"> <sup>0707847345</sup></a></p> 
+                <p><a href="https://wa.me/+254735116942"><img src="images/whatsap.jpeg" class="icons"> <sup>0735116942</sup></a></p>
+                <div class="social-icons">
+                <a href="https://www.linkedin.com/in/muema-joseph-93094225a"><img src="images/img.icons8.png"class="icons"></a> <!--linkedin-->
+                <a href="https://twitter.com/intent/tweet"><img src="images/twiter.png" class="icons"></a>
+                <a href="https://facebook.com"><img src="images/fb.png" class="icons"></a>
+                <a href="https://wa.me/+254735116942"><img src="images/watsap.png" class="icons"></a>
+                </div>
+                <div class="btn2">
+                    <a href="images/test.pdf"  download >download Cv</a>
+                </div>
+            </div>
+            
+         <div class="content-right">
+            <form action="">
+                <input type="text" name="name" placeholder="Enter your name" required>
+                <input type="text" name="email" placeholder="enter email" required>
+                <textarea row="6" name="msg" placeholder="write your message" required></textarea>
+                <button type="submit" class="btn">submit</button> 
+            </form>
+        </div>
+    </div>
+    </div>
+    
+</div>
+
+
+<div id="copyright">
+    <div class="copyright">
+    <p>All rights reserved by Joseph muema &copy;2023</p>
+
+</div>
+
+
+</div>
+
+
+
+
+<script>
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+    
+
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+
+</script>
+
+<script>
+    var sidem = document.getElementById("sidemenu");
+    function openMenu(){
+        sidem.style.right = "0";
+    }
+    function closeMenu(){
+        sidem.style.right = "-200px";
+    }
+</script>
+</body>
+</html>
