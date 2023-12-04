@@ -30,8 +30,8 @@ nav{
     flex-wrap: wrap;
 }
 .logo{
-    width: 100px;
-    height: 100px;
+    width: 60px;
+    height: 60px;
     border-radius: 50%;
     
     
@@ -521,7 +521,7 @@ form input, form textarea{
 }
 
 .skill-per.javascript{
-    width: 60%;
+    width: 75%;
     animation-delay: 0.2s;
 }
 .skill-per.java{
@@ -530,7 +530,7 @@ form input, form textarea{
 
 }
 .skill-per.python{
-    width: 70%;
+    width: 40%;
     animation-delay: 0.3s;
 
 }
